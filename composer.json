@@ -1,0 +1,29 @@
+{
+	"name": "reazon/vsm-captcha",
+	"description": "Laravel very simple match captcha for my own convenience",
+	"type": "library",
+	"autoload": {
+		"psr-4": {
+			"REAZON\\VerySimpleMathCaptcha\\": "src/"
+		},
+		"files": [
+			"src/helpers.php"
+		]
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"REAZON\\VerySimpleMathCaptcha\\VsmCaptchaServiceProvider"
+			],
+			"aliases": {
+				"VsmCaptcha": "REAZON\\VerySimpleMathCaptcha\\VsmCaptcha"
+			}
+		}
+	},
+	"license": "MIT",
+	"authors": [{
+		"name": "REAZON",
+		"email": "reazon7@gmail.com"
+	}],
+	"minimum-stability": "stable"
+}
