@@ -1,6 +1,6 @@
 ## Very Simple Math Captcha for Laravel
 
-This package is intended for devs that does not want their user to be confused looking at some obscure image of captcha but still want to have a captcha for whatever reason. And ofcourse it's not as secure as an obscure one.
+This package is intended for devs that does not want their user to be confused looking at some obscure captcha image but still want to have a captcha for whatever reason. And ofcourse it's not as secure as an obscure one.
 
 ## Installation
 
